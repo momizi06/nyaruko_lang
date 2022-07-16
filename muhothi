@@ -3,7 +3,7 @@
 
 require 'r-fxxk'
 
-class muhothi < Brainfuck
+class Muhothi < Brainfuck
   nxt "ウエエエエエエエエエエエアアアアアア！！！"
   inc "\( 'ω')/<ウオオオオオアアアーーーッ！！！"
   prv "！！！アアアアアアエエエエエエエエエエエウ"
@@ -14,4 +14,4 @@ class muhothi < Brainfuck
   get "ウニャアアアアアアアアアアアアアアア！！！"
 end
 
-puts muhothi.new.fuck(ARGF.read)
+puts Muhothi.new.fuck(ARGF.read)
